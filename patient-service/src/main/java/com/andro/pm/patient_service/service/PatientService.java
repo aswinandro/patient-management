@@ -2,6 +2,7 @@ package com.andro.pm.patient_service.service;
 
 import com.andro.pm.patient_service.dto.PatientRequestDTO;
 import com.andro.pm.patient_service.dto.PatientResponseDTO;
+import com.andro.pm.patient_service.exception.EmailAlreadyExistsException;
 import com.andro.pm.patient_service.mapper.PatientMapper;
 import com.andro.pm.patient_service.model.Patient;
 import com.andro.pm.patient_service.repository.PatientRepository;
